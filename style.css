@@ -17,3 +17,19 @@
     font-weight: bold;
     font-size: small;
 }
+.nav {
+    display: flex;
+    list-style: none;
+    justify-items: center;
+    margin: auto;
+}
+.nav li a{
+    text-decoration: none;
+    padding: 0 2px;
+    color: black;
+    font-weight: bold;
+}
+.nav li a:hover {
+    color: red;
+    transition: all 1s;
+} 
